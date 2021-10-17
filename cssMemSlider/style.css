@@ -70,7 +70,7 @@ body {
 }
 
 .circle {
-  margin: auto;
+  margin: 5px auto;
   width: 10px;
   height: 10px;
   border: 1px solid #71abff;
@@ -85,4 +85,15 @@ body {
 
 .dot.active .circle {
   background-color: rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 320px) {
+  .description-slider {
+    flex-direction: column-reverse;
+    row-gap: 20px;
+  }
+
+  .dots-slider {
+    margin: 0 auto;
+  }
 }
