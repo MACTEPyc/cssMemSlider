@@ -9,7 +9,6 @@ body {
 }
 
 .main {
-  /* margin-top: 10px; */
   width: 90%;
   margin: 10px auto;
   color: white;
@@ -25,7 +24,6 @@ body {
 
 .image-container {
   max-width: 100%;
-  /* max-height: 80vh; */
 }
 
 .image-slide {
@@ -61,7 +59,6 @@ body {
 .dots-slider {
   display: flex;
   flex-wrap: nowrap;
-  /* column-gap: 5px; */
 }
 
 .dot {
